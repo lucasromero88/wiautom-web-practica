@@ -1,0 +1,63 @@
+
+.navegacion {
+    background-color: map-get($colors, negro-col);
+    font-size: map-get($font-sizes, m);
+    font-family: $font-family;
+
+    .nav {
+        gap: 20px;
+
+    }
+    .navbar-nav {
+        gap: 20px;
+    }
+    .icono-garantia {
+        img {
+            @include medidas(18px, 18px);
+            // background-color: map-get($colors, gris-nav);
+        }
+    }
+    .config-nav-1 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .nav-link {
+        color: map-get($colors, blanco-col)
+    }
+    .centrado {
+        @include flex(none, center, none);
+        img {
+            @include medidas(90px, 30px);
+            background-color: map-get($colors, blanco-col);
+        }
+        .icono-carrito {
+            .img {
+                @include medidas(18px, 18px);
+            }
+        }
+    }
+    .label {
+        color: map-get($colors, gris-nav);
+    }
+    .label-2 {
+        color: map-get($colors, celeste-nav);
+    }
+    .search-config {
+        @include medidas(580px, 40px);
+        .form-control {
+            border-radius: 0px;
+            border-top-right-radius: 10px;    
+        }
+    }
+    .nav-item {
+        @include flex(none, none, center);
+        .main-icon {
+            img {
+                @include medidas(20px, 25px);
+            }
+        }
+        // .tamaño-texto {
+        //     padding: 0px;
+        // }
+    }
+}

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navegacion {
+  background-color: black;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+}
+.navegacion .nav {
+  gap: 20px;
+}
+.navegacion .navbar-nav {
+  gap: 20px;
+}
+.navegacion .icono-garantia img {
+  width: 18px;
+  height: 18px;
+}
+.navegacion .config-nav-1 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.navegacion .nav-link {
+  color: white;
+}
+.navegacion .centrado {
+  display: flex;
+  flex-direction: none;
+  justify-content: center;
+  align-items: none;
+}
+.navegacion .centrado img {
+  width: 90px;
+  height: 30px;
+  background-color: white;
+}
+.navegacion .centrado .icono-carrito .img {
+  width: 18px;
+  height: 18px;
+}
+.navegacion .label {
+  color: rgba(255, 255, 255, 0.5);
+}
+.navegacion .label-2 {
+  color: #31C7C7;
+}
+.navegacion .search-config {
+  width: 580px;
+  height: 40px;
+}
+.navegacion .search-config .form-control {
+  border-radius: 0px;
+  border-top-right-radius: 10px;
+}
+.navegacion .nav-item {
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: center;
+}
+.navegacion .nav-item .main-icon img {
+  width: 20px;
+  height: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
